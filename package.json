@@ -11,6 +11,15 @@
   "dependencies": {
     "express": "^4.13.4",
     "path": "^0.12.7",
-    "socket.io": "^1.4.5"
+    "socket.io": "^1.4.5",
+    "jquery": "~2.2.2",
+    "angular": "~1.5.3",
+    "angular-route": "~1.5.3",
+    "angular-sanitize": "~1.5.3",
+    "angular-cookies": "~1.5.3",
+    "ng-lodash": "~0.5.0",
+    "ngstorage": "ng-storage#~0.4.2",
+    "bootstrap": "~3.3.6",
+    "font-awesome": "~4.5.0"
   }
 }
