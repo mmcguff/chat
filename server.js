@@ -37,6 +37,15 @@ io.on('connection', function(socket) {
     //io.emit('message-received',data);
   })
 
+  //Send a 'like' to the user of my choice
+  socket.on('send-like', function(data){
+    console.log(data)
+
+    socket.broadcast.to(data.like).emit('user-liked', data);
+  })
+
+
+
 });
 
 server.listen(process.env.PORT || port)
